@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-#define note "maze mat lo, enter the valid operation"
+#define note "enter the valid operation"
 void addition();
 void subtraction();
 void multiplication();
@@ -10,9 +10,7 @@ void division();
 void modulus();
 void factorial();
 void power();
-void square();
 void cube();
-void squareroot();
 void cuberoot();
 
 int main(){
@@ -26,10 +24,8 @@ int main(){
     printf("Enter 5 for Modulus\n");
     printf("Enter 6 for Power \n");
     printf("Enter 7 for Factorial \n");
-    printf("Enter 8  for square \n");
-    printf("Enter 9  for cube \n");
-    printf("Enter 10 for squareroot\n");
-    printf("Enter 11 for Cuberoot\n\n");
+    printf("Enter 8 for cube \n");
+    printf("Enter 9 for Cuberoot\n\n");
     
     while(1){    
     printf("\n\nEnter the operation you want to do: ");
@@ -60,15 +56,9 @@ int main(){
                     factorial();
                     break;
                 case 8:
-                    square();
-                    break;
-                case 9:
                     cube();
                     break;
-                case 10:
-                    squareroot();
-                    break;
-                    case 11:
+                case 9:
                     	cuberoot();
                     	break;
                 case 0:
@@ -129,13 +119,7 @@ void power(){
     double e=pow(b,p);
     printf("The power is %lf",e);
 }
-void square(){
-    double b;
-    printf("Enter the number you want the square of: ");
-    scanf("%lf",&b);
-    double p=pow(b,2);
-    printf("The square of %lf is %lf",b,p);
-}
+
 void cube(){
     double b;
     printf("Enter the number you want the cube of: ");
@@ -143,13 +127,7 @@ void cube(){
     double p=pow(b,3);
     printf("The cube of %lf is %lf",b,p);
 }
-void squareroot(){
-    double b;
-    printf("Enter the number you want the square root of : ");
-    scanf("%lf",&b);
-    double s = sqrt(b);
-    printf("The square root of %lf is %lf",b,s);
-}
+
 void cuberoot(){
     double b;
     printf("Enter the number you want the cube root of : ");
