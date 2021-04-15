@@ -5,7 +5,7 @@
 [![cppcheck-action](https://github.com/Bhuvana-295556/Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Bhuvana-295556/Calculator/actions/workflows/cppcheck.yml)
 
 
-![Banner](https://github.com/295557/Mini_Project/blob/main/1_Requirements/calculator.jpg)
+![image](https://user-images.githubusercontent.com/82052062/114871137-96b75b00-9e16-11eb-9e0d-09eb0c1e2cf8.png)
 
 
 ## Folder Structure
