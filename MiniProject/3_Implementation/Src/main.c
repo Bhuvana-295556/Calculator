@@ -10,9 +10,7 @@ void division();
 void modulus();
 void factorial();
 void power();
-void square();
 void cube();
-void squareroot();
 void cuberoot();
 
 int main(){
@@ -26,10 +24,8 @@ int main(){
     printf("Enter 5 for Modulus\n");
     printf("Enter 6 for Power \n");
     printf("Enter 7 for Factorial \n");
-    printf("Enter 8  for square \n");
-    printf("Enter 9  for cube \n");
-    printf("Enter 10 for squareroot\n");
-    printf("Enter 11 for cuberrot\n\n");
+    printf("Enter 8  for cube \n");
+    printf("Enter 9 for cuberrot\n\n");
     
     while(1){    
     printf("\n\nEnter the operation you want to do: ");
@@ -59,16 +55,10 @@ int main(){
                 case 7:
                     factorial();
                     break;
-                case 8:
-                    square();
-                    break;
-                case 9:
+                 case 8:
                     cube();
                     break;
-                case 10:
-                    squareroot();
-                    break;
-                 case 11:
+                 case 9:
                      cuberoot();
                      break;
                 case 0:
