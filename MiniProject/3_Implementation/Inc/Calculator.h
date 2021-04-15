@@ -12,5 +12,6 @@ void power(int number1);
 void square(int number1);
 void cube(int number1);
 void squareroot(int number1);
+void cuberoot(int number1);
 
 #endif
