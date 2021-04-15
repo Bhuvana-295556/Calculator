@@ -51,13 +51,7 @@ void power(){
     double e=pow(b,p);
     printf("The power is %lf",e);
 }
-void square(){
-    double b;
-    printf("Enter the number you want the square of: ");
-    scanf("%lf",&b);
-    double p=pow(b,2);
-    printf("The square of %lf is %lf",b,p);
-}
+
 void cube(){
     double b;
     printf("Enter the number you want the cube of: ");
@@ -65,13 +59,7 @@ void cube(){
     double p=pow(b,3);
     printf("The cube of %lf is %lf",b,p);
 }
-void squareroot(){
-    double b;
-    printf("Enter the number you want the square root of : ");
-    scanf("%lf",&b);
-    double s = sqrt(b);
-    printf("The square root of %lf is %lf",b,s);
-}
+
 void cuberoot(){
     double b;
     printf("Enter the number you want the cube root of : ");
