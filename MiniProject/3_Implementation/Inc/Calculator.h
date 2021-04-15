@@ -9,9 +9,7 @@ void division(int number1,int number2);
 void modulus(int number1,int number2);
 void factorial(int number1);
 void power(int number1);
-void square(int number1);
 void cube(int number1);
-void squareroot(int number1);
 void cuberoot(int number1);
 
 #endif
