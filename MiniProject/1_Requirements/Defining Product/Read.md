@@ -1,4 +1,4 @@
-# The calculator we have designed will have following features,
+The calculator we have designed will have following features,
  
  Addition 
  Subtraction 
