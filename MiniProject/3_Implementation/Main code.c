@@ -13,6 +13,7 @@ void power();
 void square();
 void cube();
 void squareroot();
+void cuberoot();
 
 int main(){
     printf("\t\tWelcome to the scientific calculator!!\n\n");
@@ -27,7 +28,8 @@ int main(){
     printf("Enter 7 for Factorial \n");
     printf("Enter 8  for square \n");
     printf("Enter 9  for cube \n");
-    printf("Enter 10 for squareroot\n\n");
+    printf("Enter 10 for squareroot\n");
+    printf("Enter 11 for Cuberoot\n\n");
     
     while(1){    
     printf("\n\nEnter the operation you want to do: ");
@@ -66,6 +68,9 @@ int main(){
                 case 10:
                     squareroot();
                     break;
+                    case 11:
+                    	cuberoot();
+                    	break;
                 case 0:
                     exit(0);
                 default:
@@ -144,4 +149,11 @@ void squareroot(){
     scanf("%lf",&b);
     double s = sqrt(b);
     printf("The square root of %lf is %lf",b,s);
+}
+void cuberoot(){
+    double b;
+    printf("Enter the number you want the cube root of : ");
+    scanf("%lf",&b);
+    double s = cbrt(b);
+    printf("The cube root of %lf is %lf",b,s);
 }
