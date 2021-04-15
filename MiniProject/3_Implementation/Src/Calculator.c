@@ -72,3 +72,10 @@ void squareroot(){
     double s = sqrt(b);
     printf("The square root of %lf is %lf",b,s);
 }
+void cuberoot(){
+    double b;
+    printf("Enter the number you want the cube root of : ");
+    scanf("%lf",&b);
+    double s = cbrt(b);
+    printf("The cube root of %lf is %lf",b,s);
+}
